@@ -1,4 +1,4 @@
-# DC-AC-Converter
+# DC-AC Converter
 This project models a basic DC-AC Converter circuit in Simulink. The output is 50Hz Pseudo-sine signal. The specifications are as follows:
 
  - An H-Bridge circuit has been used to convert the DC voltage in Square wave AC voltage. The H-Bridge is modelled using **IRF540** power MOSFETs and **BC547B** fast-switching transistors.
