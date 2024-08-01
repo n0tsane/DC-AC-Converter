@@ -11,11 +11,11 @@ The Converter diagram has been shown below.
 
 ![Converter diagram](https://github.com/n0tsane/DC-AC-Converter/assets/137712885/39520648-a9de-4f18-994a-2f1498d70412)
 
-The Astable multivibrator has been constructed using an op-amp (Finite Gain Op-Amp block in Simulink) and ann 1uF capacitor. The values of R1, R2 and Rf are 5kOhm, 10kOhm and 6.213kOhm respectively.
+The Astable multivibrator has been constructed using an op-amp (Finite Gain Op-Amp block in Simulink) with biasing voltages of +5 and -5 volts. and an 1uF capacitor. The values of R1, R2 and Rf are 5kOhm, 10kOhm and 6.213kOhm respectively. The multivibrator output is the following signal having an amplitude of 5 volts.
 
 ![Astable Multivibrator](https://github.com/n0tsane/DC-AC-Converter/assets/137712885/90b1c13a-26d7-43ab-a8ac-30e259befbaf)
 
-This multivibrator produces a clock pulse that controls the MOSFETs of the H-Bridge. The H-Bridge circuit diagram has been shown.
+This multivibrator-produced signal acts as a clock pulse that controls the MOSFETs of the H-Bridge. The H-Bridge circuit diagram has been shown.
 
 ![image](https://github.com/n0tsane/DC-AC-Converter/assets/137712885/496f0c97-4d26-40cf-9a48-05ec8910d78e)
 
